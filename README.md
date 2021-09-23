@@ -84,7 +84,7 @@ To Know more about vectorization click here :
 
 
 ## Database Link : 
-[https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh/version/1?select=Test_set.xlsx]
+[https://www.kaggle.com/yash612/stockmarket-sentiment-dataset]
 
 
 ## Future Scope
