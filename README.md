@@ -1,5 +1,5 @@
 # Stock-Sentimental-Analysis-Classifier
-Classify the stcok market with help of news headlines
+Classify the stock market with help of news headlines
 
 ## Table of Content
   * Demo
