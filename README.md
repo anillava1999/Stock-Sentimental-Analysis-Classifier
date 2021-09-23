@@ -4,9 +4,9 @@
   * Demo
   * Overview
   * Motivation
-  * Installation and run 
-  * Cosine Similarity
+  * Installation and Run 
   * Deployement on Heroku
+  * Using Bag of Words to Vectorization
   * Database Link
   * Future scope of project
   
@@ -22,25 +22,35 @@ Project output demo Link: [https://stockanalys.herokuapp.com/]
 
 ## Screenshots
 
-![Screenshot 2021-09-20 at 1 21 49 AM](https://user-images.githubusercontent.com/71332138/134139635-1ff23997-e557-4fe2-9d65-af098e9e12bd.png)
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+![Screenshot 2021-09-23 at 8 31 20 PM](https://user-images.githubusercontent.com/71332138/134535597-e985cec4-389e-4918-b9d2-39dfb72b4b4e.png)
 
-![Screenshot 2021-09-20 at 1 22 03 AM](https://user-images.githubusercontent.com/71332138/134139644-3e155819-9105-4e8f-85dd-691d4342541c.png)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![Screenshot 2021-09-20 at 1 26 40 AM](https://user-images.githubusercontent.com/71332138/134139661-1b29c50d-d7ad-46dc-8fca-3d1107c34896.png)
+![Screenshot 2021-09-23 at 8 32 20 PM](https://user-images.githubusercontent.com/71332138/134535617-452acd23-450b-4cd4-8ecd-d8a00ea4cbdf.png)
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![Screenshot 2021-09-23 at 8 31 35 PM](https://user-images.githubusercontent.com/71332138/134536215-7bc2750d-0803-4d43-8c6c-cdc69c49e590.png)
+
+
+
+
 
 ## Overview
-Recommendation Engine created as an AI module integrated with mobile app to recommend movies with help of content, Developed these POC for to get experience real time projects and Created API using Streamlit Framework and Deployed to the Heroku Cloud platform
+The markets reflect rational behavior or human irrationality? Mass psychology's effects may not be the only factor driving the markets, but it’s unquestionably significant.
+This fascinating quality is something that we can measure and use to predict market movement with surprising accuracy levels.
+With the real-time information available to us on massive information in newspaper like Times of Inadia and Deccan Haeralad, we have all the data we could ever need to create these predictions.
+But then comes the question, how can our computer understand what this unstructured text data means?
+That is where sentiment analysis comes in. Sentiment analysis is a particularly interesting branch of Natural Language Processing (NLP), which is used to rate the language used in a body of text.
+Through sentiment analysis, we can take thousands of tweets about a company and judge whether they are generally positive or negative (the sentiment) in real-time!
+Developed these POC for to get experience real time projects and Created API using Streamlit Framework and Deployed to the Heroku Cloud platform
 
 ## Motivation
 What to do when you are at home due to this pandemic situation? I started to learn Machine Learning model to get most out of it. I came to know mathematics behind all supervised models and unspurervised models. Finally it is important to work on application (real world application) to actually make a difference. To get a experience you have to work thats the reason to perform my favourable work done.
 
-## Installation and run
+## Installation and Run
 The Code is written in Python 3.9 If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
 
      Step 1: pip install -r requirements.txt
@@ -52,25 +62,33 @@ Login or signup in order to create virtual app. You can either connect your gith
 
 [![](https://i.imgur.com/dKmlpqX.png)](https://heroku.com)
 
-## How Cosine Similarity works?
+## Using Bag of Words to Vectorization
 
-Cosine similarity is a metric used to measure how similar the documents are irrespective of their size. Mathematically, it measures the cosine of the angle between two vectors projected in a multi-dimensional space. The cosine similarity is advantageous because even if the two similar documents are far apart by the Euclidean distance (due to the size of the document), chances are they may still be oriented closer together. The smaller the angle, higher the cosine similarity.
+Text data is used in natural language processing (NLP), which interacts between humans and machines using natural language. Text data helps analyze movie reviews, products using Amazon reviews, etc. But the question that arises here is how to deal with text data when building a machine learning model?
+Text data is converted to a real-valued vector by various techniques. One such approach is Bag of Words (BoW), which will be discussed in this article. But why do we have to convert the text into a vector? Why can’t we use text data to build a machine learning model?
+Need for text vectorization
+Let’s say we have reviews of a product. Text reviews provided by the customers are of different lengths. By converting from text to numbers, we can represent a review by a finite length of the vector. In this way, the length of the vector will be equal for each review, irrespective of the text length.
+Bag of words is the most trivial representation of text into vectors. Each column of a vector represents a word. The values in each cell of a row show the number of occurrences of a word in a sentence.
 
-![cosine](https://user-images.githubusercontent.com/71332138/134168633-f85a6481-82a4-445d-82e4-51208984ffbd.png)
+To Know more about vectorization click here : 
 
+[https://towardsdatascience.com/text-vectorization-bag-of-words-bow-441d1bfce897]
 
-For more Details about Cosine Similarity : [https://neo4j.com/docs/graph-data-science/current/alpha-algorithms/cosine/]
 
 ## Technologies Used
 
+![](https://forthebadge.com/images/badges/made-with-python.svg)  ![pandas](https://user-images.githubusercontent.com/71332138/134156736-9dcc4675-e588-42a6-9481-816ac08654ab.png). ![nltk](https://user-images.githubusercontent.com/71332138/134540164-b00fafda-ccde-49ce-a5c5-3019a856f860.png) 
 
-![](https://forthebadge.com/images/badges/made-with-python.svg)  ![pandas](https://user-images.githubusercontent.com/71332138/134156736-9dcc4675-e588-42a6-9481-816ac08654ab.png)
+![blog sklearn](https://user-images.githubusercontent.com/71332138/134540412-a009eb7d-f4fa-412f-bc1a-a5c89ba74aa4.png). ![numpy](https://user-images.githubusercontent.com/71332138/134540645-95fa9566-18ca-4719-8cc6-82153e96683c.png) 
+                               ![streamlit](https://user-images.githubusercontent.com/71332138/134540838-49dda9c6-3cf8-4695-be7b-5af1aff6e394.png)
+
 
 ## Database Link : 
 [https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh/version/1?select=Test_set.xlsx]
- 
+
+
 ## Future Scope
 
 * Optimize Streamlit app.py
-* Perform Sentimental analysis
-* Front-End 
+* Add extra Features
+* Develop Front-End 
