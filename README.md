@@ -21,6 +21,15 @@ Link : https://www.linkedin.com/in/anil-l-b023631b6/
 ## Demo
 Project output demo Link: [https://stockanalys.herokuapp.com/]
 
+## Overview
+The markets reflect rational behavior or human irrationality? Mass psychology's effects may not be the only factor driving the markets, but it’s unquestionably significant.
+This fascinating quality is something that we can measure and use to predict market movement with surprising accuracy levels.
+With the real-time information available to us on massive information in newspaper like Times of Inadia and Deccan Haeralad, we have all the data we could ever need to create these predictions.
+But then comes the question, how can our computer understand what this unstructured text data means?
+That is where sentiment analysis comes in. Sentiment analysis is a particularly interesting branch of Natural Language Processing (NLP), which is used to rate the language used in a body of text.
+Through sentiment analysis, we can take thousands of tweets about a company and judge whether they are generally positive or negative (the sentiment) in real-time!
+Developed these POC for to get experience real time projects and Created API using Streamlit Framework and Deployed to the Heroku Cloud platform
+
 ## Data Collection 
 Stock sentimental analysis using news headlines dataset Extracted the Dataset from the Kaggle you can also extract the data from this link https://www.kaggle.com/yash612/stockmarket-sentiment-dataset , Kaggle is an Open source and have a large community also they conduct competitions every month,Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges,Given the thousands of other people also doing them, it is becoming harder and harder for merely working through them to be enough to differentiate you. You'll learn a lot, but it won't make you stand out from your competition.Data scientists of all levels can benefit from the resources and community on Kaggle. Whether you are a beginner, looking to learn new skills and contribute to projects, an advanced data scientist looking for competitions, or somewhere in between, Kaggle is a good place to learn
 
@@ -29,7 +38,7 @@ Stock sentimental analysis using news headlines dataset Extracted the Dataset fr
 
 Data cleaning is the process of fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data within a dataset. When combining multiple data sources, there are many opportunities for data to be duplicated or mislabeled. If data is incorrect, outcomes and algorithms are unreliable, even though they may look correct. There is no one absolute way to prescribe the exact steps in the data cleaning process because the processes will vary from dataset to dataset. But it is crucial to establish a template for your data cleaning process so you know you are doing it the right way every time.
 
-In this project, we just split the data into two types are train data and test data to avoid data leakage for new data and  after remove the word punctuations and Renaming column names for easy access and converting all headlines into lowercase to get a unique word it means if word one contains 'Cycle' and 'cycle' Machine assumes both are different that's why converting all words into lower and after Join all 25 headline columns into one column to perform vectorization and same data cleaning procedure will also apply to the test data 
+In this project, we just split the data into two types are train data and test data to avoid data leakage for new data and remove the word punctuations and Renaming column names for easy access and converting all headlines into lowercase to get a unique word it means if word one contains 'Cycle' and 'cycle' Machine assumes both are different that's why converting all words into lower and after Join all 25 headline columns into one column to perform vectorization and same data cleaning procedure will also apply to the test data 
 
 
 ## Vectorization 
@@ -64,14 +73,7 @@ To Know more about vectorization click here :
 
 
 
-## Overview
-The markets reflect rational behavior or human irrationality? Mass psychology's effects may not be the only factor driving the markets, but it’s unquestionably significant.
-This fascinating quality is something that we can measure and use to predict market movement with surprising accuracy levels.
-With the real-time information available to us on massive information in newspaper like Times of Inadia and Deccan Haeralad, we have all the data we could ever need to create these predictions.
-But then comes the question, how can our computer understand what this unstructured text data means?
-That is where sentiment analysis comes in. Sentiment analysis is a particularly interesting branch of Natural Language Processing (NLP), which is used to rate the language used in a body of text.
-Through sentiment analysis, we can take thousands of tweets about a company and judge whether they are generally positive or negative (the sentiment) in real-time!
-Developed these POC for to get experience real time projects and Created API using Streamlit Framework and Deployed to the Heroku Cloud platform
+
 
 ## Motivation
 What to do when you are at home due to this pandemic situation? I started to learn Machine Learning model to get most out of it. I came to know mathematics behind all supervised models and unspurervised models. Finally it is important to work on application (real world application) to actually make a difference. To get a experience you have to work thats the reason to perform my favourable work done.
