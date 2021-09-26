@@ -24,6 +24,28 @@ Project output demo Link: [https://stockanalys.herokuapp.com/]
 ## Data Collection 
 Stock sentimental analysis using news headlines dataset Extracted the Dataset from the Kaggle you can also extract the data from this link https://www.kaggle.com/yash612/stockmarket-sentiment-dataset , Kaggle is an Open source and have a large community also they conduct competitions every month,Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges,Given the thousands of other people also doing them, it is becoming harder and harder for merely working through them to be enough to differentiate you. You'll learn a lot, but it won't make you stand out from your competition.Data scientists of all levels can benefit from the resources and community on Kaggle. Whether you are a beginner, looking to learn new skills and contribute to projects, an advanced data scientist looking for competitions, or somewhere in between, Kaggle is a good place to learn
 
+
+## Data Cleaning
+
+Data cleaning is the process of fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data within a dataset. When combining multiple data sources, there are many opportunities for data to be duplicated or mislabeled. If data is incorrect, outcomes and algorithms are unreliable, even though they may look correct. There is no one absolute way to prescribe the exact steps in the data cleaning process because the processes will vary from dataset to dataset. But it is crucial to establish a template for your data cleaning process so you know you are doing it the right way every time.
+
+In this project, we just split the data into two types are train data and test data to avoid data leakage for new data and  after remove the word punctuations and Renaming column names for easy access and converting all headlines into lowercase to get a unique word it means if word one contains 'Cycle' and 'cycle' Machine assumes both are different that's why converting all words into lower and after Join all 25 headline columns into one column to perform vectorization and same data cleaning procedure will also apply to the test data 
+
+
+## Vectorization 
+### Using Bag of Words Techniques for Vectorization
+
+Text data is used in natural language processing (NLP), which interacts between humans and machines using natural language. Text data helps analyze movie reviews, products using Amazon reviews, etc. But the question that arises here is how to deal with text data when building a machine learning model?
+Text data is converted to a real-valued vector by various techniques. One such approach is Bag of Words (BoW), which will be discussed in this article. But why do we have to convert the text into a vector? Why can’t we use text data to build a machine learning model?
+Need for text vectorization
+Let’s say we have reviews of a product. Text reviews provided by the customers are of different lengths. By converting from text to numbers, we can represent a review by a finite length of the vector. In this way, the length of the vector will be equal for each review, irrespective of the text length.
+Bag of words is the most trivial representation of text into vectors. Each column of a vector represents a word. The values in each cell of a row show the number of occurrences of a word in a sentence.
+
+To Know more about vectorization click here : 
+
+[https://towardsdatascience.com/text-vectorization-bag-of-words-bow-441d1bfce897]
+
+
 ## Screenshots
 
 
@@ -69,18 +91,6 @@ Running Project
 Login or signup in order to create virtual app. You can either connect your github profile or download ctl to manually deploy this project.
 
 [![](https://i.imgur.com/dKmlpqX.png)](https://heroku.com)
-
-## Using Bag of Words to Vectorization
-
-Text data is used in natural language processing (NLP), which interacts between humans and machines using natural language. Text data helps analyze movie reviews, products using Amazon reviews, etc. But the question that arises here is how to deal with text data when building a machine learning model?
-Text data is converted to a real-valued vector by various techniques. One such approach is Bag of Words (BoW), which will be discussed in this article. But why do we have to convert the text into a vector? Why can’t we use text data to build a machine learning model?
-Need for text vectorization
-Let’s say we have reviews of a product. Text reviews provided by the customers are of different lengths. By converting from text to numbers, we can represent a review by a finite length of the vector. In this way, the length of the vector will be equal for each review, irrespective of the text length.
-Bag of words is the most trivial representation of text into vectors. Each column of a vector represents a word. The values in each cell of a row show the number of occurrences of a word in a sentence.
-
-To Know more about vectorization click here : 
-
-[https://towardsdatascience.com/text-vectorization-bag-of-words-bow-441d1bfce897]
 
 
 ## Technologies Used
