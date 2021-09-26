@@ -130,6 +130,10 @@ Running Project
 ## Database Link : 
 [https://www.kaggle.com/yash612/stockmarket-sentiment-dataset]
 
+## Deploy Heroku tutorial video link :
+
+[https://www.youtube.com/watch?v=IWWu9M-aisA]
+
 
 ## Future Scope
 
