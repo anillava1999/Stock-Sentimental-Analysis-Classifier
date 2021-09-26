@@ -78,7 +78,13 @@ Streamlit is an open-source Python library that makes it easy to create and shar
 Streamlit Tutorial : [https://streamlit.io/]
 
 ## Deployement on Heroku
+Once the model has good accuracy, we deploy the model either in the cloud or Rasberry py or any other place. Once we deploy, we monitor the performance of the model.if its good...we go live with the model or reiterate the all process until our model performance is good.
+It's not done yet!!!
+What if, after a few days, our model performs badly because of new data. In that case, we do all the process again by collecting new data and redeploy the model.
+
 Heroku is a container-based cloud Platform as a Service (PaaS). Developers use Heroku to deploy, manage, and scale modern apps. Our platform is elegant, flexible, and easy to use, offering developers the simplest path to getting their apps to market.
+
+
 
 Login or signup in order to create virtual app. You can either connect your github profile or download ctl to manually deploy this project.
 
