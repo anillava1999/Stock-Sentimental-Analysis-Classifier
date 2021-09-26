@@ -22,8 +22,7 @@ Link : https://www.linkedin.com/in/anil-l-b023631b6/
 Project output demo Link: [https://stockanalys.herokuapp.com/]
 
 ## Data Collection 
-Stock sentimental analysis using news headlines dataset Extracted the Dataset from the Kaggle you can also extract the data from this link https://www.kaggle.com/yash612/stockmarket-sentiment-dataset , Kaggle is an Open source and have a large community also they conduct competitions every month,Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges,
-Given the thousands of other people also doing them, it is becoming harder and harder for merely working through them to be enough to differentiate you. You'll learn a lot, but it won't make you stand out from your competition.Data scientists of all levels can benefit from the resources and community on Kaggle. Whether you are a beginner, looking to learn new skills and contribute to projects, an advanced data scientist looking for competitions, or somewhere in between, Kaggle is a good place to learn
+Stock sentimental analysis using news headlines dataset Extracted the Dataset from the Kaggle you can also extract the data from this link https://www.kaggle.com/yash612/stockmarket-sentiment-dataset , Kaggle is an Open source and have a large community also they conduct competitions every month,Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges,Given the thousands of other people also doing them, it is becoming harder and harder for merely working through them to be enough to differentiate you. You'll learn a lot, but it won't make you stand out from your competition.Data scientists of all levels can benefit from the resources and community on Kaggle. Whether you are a beginner, looking to learn new skills and contribute to projects, an advanced data scientist looking for competitions, or somewhere in between, Kaggle is a good place to learn
 
 ## Screenshots
 
@@ -58,8 +57,12 @@ What to do when you are at home due to this pandemic situation? I started to lea
 ## Installation and Run
 The Code is written in Python 3.9 If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
 
-     Step 1: pip install -r requirements.txt
+Install Required Libraries
+
+     Step 1: pip install -r requirements.tx
      
+Running Project
+
      Step 2: Streamlit run app.py
 
 ## Deployement on Heroku
