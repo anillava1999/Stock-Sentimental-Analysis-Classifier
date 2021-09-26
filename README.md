@@ -30,7 +30,7 @@ This fascinating quality is something that we can measure and use to predict mar
 With the real-time information available to us on massive information in newspaper like Times of Inadia and Deccan Haeralad, we have all the data we could ever need to create these predictions.
 But then comes the question, how can our computer understand what this unstructured text data means?
 That is where sentiment analysis comes in. Sentiment analysis is a particularly interesting branch of Natural Language Processing (NLP), which is used to rate the language used in a body of text.
-Through sentiment analysis, we can take thousands of tweets about a company and judge whether they are generally positive or negative (the sentiment) in real-time!
+Through sentiment analysis, we can take thousands of news about a company and judge whether they are generally positive or negative (the sentiment) in real-time!
 Developed these POC for to get experience real time projects and Created API using Streamlit Framework and Deployed to the Heroku Cloud platform
 
 ## Motivation
